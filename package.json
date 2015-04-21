@@ -1,0 +1,36 @@
+{
+  "name": "scoremore",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Scoremore application",
+  "keywords": [],
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node debug app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scoremore/soshace.git"
+  },
+  "author": "user",
+  "license": "",
+  "dependencies": {
+    "sails": "^0.11.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-jshint": "^1.10.0",
+    "gulp-less": "^3.0.3",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.4",
+    "gulp-watch": "^4.2.4",
+    "main-bower-files": "^2.7.0",
+    "gulp-imagemin": "^2.2.1",
+    "imagemin-pngquant": "^4.0.0"
+  }
+}

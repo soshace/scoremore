@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #000;
+  font-family: 'Tahoma';
+  font-size: 24px;
+  color: #000;
+}
+
+.hide {
+  display: none;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.content-wrapper {
+  overflow: hidden;
+}
+
+.content-bg-wrapper {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.content-bg-wrapper .content-bg {
+  position: static;
+  margin: 0 auto;
+}
+
+.content-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url(/images/bg.jpg) no-repeat;
+  background-size: 640px 1200px;
+  width: 640px;
+  height: 1200px;
+}
+
+.content {
+  width: 640px;
+}
+
+.content-mobile {
+  min-height: 100%;
+}
+
+.content-bg-desktop {
+  -ms-transform-origin: center top;
+  -moz-transform-origin: center top;
+  -o-transform-origin: center top;
+  -webkit-transform-origin: center top;
+  transform-origin: center top;
+}
+
+.content-desktop {
+  margin: 0 auto;
+  -ms-transform-origin: center top;
+  -moz-transform-origin: center top;
+  -o-transform-origin: center top;
+  -webkit-transform-origin: center top;
+  transform-origin: center top;
+}
